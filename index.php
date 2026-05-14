@@ -2,7 +2,7 @@
 <div id="main-content">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-2">
                 <!-- post-container -->
                 <div class="post-container">
                     <?php 
