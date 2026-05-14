@@ -31,6 +31,9 @@
                                         <div class="inner-content clearfix">
                                             <h3><a href="single.php?id=<?php echo $row['post_id']; ?>"><?php echo $row['title']; ?></a></h3>
                                             <div class="post-information">
+
+
+                                            shahid
                                                 <span>
                                                     <i class="fa fa-tags" aria-hidden="true"></i>
                                                     <a href='category.php?cid=<?php echo $row['category'];?>'><?php echo $row['category_name']; ?></a>
