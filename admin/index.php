@@ -1,5 +1,5 @@
 <?php 
-include 'config.php';
+include '../config.php';
 session_start();
 
 if (isset($_SESSION['username'])) {
@@ -42,8 +42,7 @@ if (isset($_SESSION['username'])) {
                         <!-- /Form  End -->
                         <?php 
                         if (isset($_POST['login'])) {
-                            include 'config.php';
-                            if (empty($_POST['username'])  || empty($_POST['password'])) {
+include '../config.php';                            if (empty($_POST['username'])  || empty($_POST['password'])) {
                                 echo "<div class='alert alert-danger'>All fields must be entered</div>";
                                 die(); 
                             }else{
